@@ -127,6 +127,40 @@ img {
   display: block;
 }
 
+/* flower and plants lover section */
+
+.plants-lover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-top: 85px;
+}
+
+.plants-lover-img {
+  flex: 1;
+  position: relative;
+}
+.flower-store {
+  object-fit: cover;
+}
+.trusted-badge {
+  height: 286px;
+  width: 286px;
+  position: absolute;
+  top: -120px;
+  right: 80px;
+}
+.plants-lover-content {
+  flex: 1;
+}
+.plants-lover-content h2 {
+  margin-bottom: 20px;
+}
+.plants-lover-content ul li {
+  margin-bottom: 20px;
+}
+
 /* media queries */
 
 @media (max-width: 576px) {
