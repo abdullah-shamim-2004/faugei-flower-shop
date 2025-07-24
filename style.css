@@ -3,3 +3,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  background-color: #f5f8ff;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  margin-top: 30px;
+}
+.nav-data {
+  font-size: 1.125rem;
+}
+.nav-data a {
+  text-decoration: none;
+  color: #8987a1;
+  margin-right: 3rem;
+}
+.nav-data a:first-child {
+  color: #000;
+}
+
+/* media queries */
+/* navbar */
+@media (max-width: 576px) {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .nav-data a{
+    color: #000;
+  }
+  .nav-data a:nth-child(1),
+  .nav-data a:nth-child(2),
+  .nav-data a:nth-child(3) {
+    visibility: hidden;
+  }
+}
