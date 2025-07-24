@@ -268,4 +268,37 @@ img {
     height: auto;
     display: block;
   }
+
+  /* flower and plants lover section */
+
+.plants-lover {
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin-top: 85px;
+}
+
+.plants-lover-img {
+  flex: 1;
+}
+.flower-store {
+  object-fit: cover;
+}
+.trusted-badge {
+ visibility: hidden;
+}
+.plants-lover-content {
+  flex: 1;
+  
+}
+.plants-lover-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 18px;
+  word-wrap: normal;
+}
+.plants-lover-content ul li {
+  font-size: 0.8rem;
+  margin-bottom: 16px;
+}
+
 }
