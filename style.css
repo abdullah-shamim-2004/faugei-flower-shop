@@ -43,7 +43,11 @@ img {
   margin-top: 30px;
   cursor: pointer;
 }
-
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* navbar style */
 .navbar {
   display: flex;
@@ -167,6 +171,30 @@ img {
 /* discount section style */
 .discount {
   display: flex;
+  gap: 8px;
+}
+.left-cards {
+  width: 35%;
+  height: 425px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+}
+.left-1 {
+  background-image: url(./image/deal-bloom.png);
+  background-size: cover;
+  text-align: center;
+}
+.left-2 {
+  background-image: url(./image/deal-ana.png);
+  background-size: cover;
+}
+
+.right-card {
+  width: 65%;
+  height: 425px;
+  background-image: url(./image/deal-zabo.png);
+  background-size: cover;
 }
 
 /* join section */
