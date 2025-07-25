@@ -161,6 +161,48 @@ img {
   margin-bottom: 20px;
 }
 
+/* join section */
+.join-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  background-image: url(./image/news-letter-bg.png);
+  background-size: cover;
+  background-position: center;
+  height: 530px;
+  position: relative;
+}
+.join-info {
+  text-align: center;
+}
+.join-info h2 {
+  color: #fff;
+}
+.subscribe-form {
+  margin-top: 20px;
+  width: 830px;
+  height: 50px;
+  display: flex;
+  background-color: #fff;
+}
+.subscribe-form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.subscribe-form button{
+    border: none;
+    outline: none;
+    background-color: #e95a08;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 18px 50px;
+    cursor: pointer;
+}
+
 /* media queries */
 
 @media (max-width: 576px) {
@@ -271,34 +313,76 @@ img {
 
   /* flower and plants lover section */
 
-.plants-lover {
-  flex-direction: column;
-  align-items: center;
-  gap: 60px;
-  margin-top: 85px;
-}
+  .plants-lover {
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin-top: 85px;
+  }
 
-.plants-lover-img {
-  flex: 1;
-}
-.flower-store {
-  object-fit: cover;
-}
-.trusted-badge {
- visibility: hidden;
-}
-.plants-lover-content {
-  flex: 1;
-  
-}
-.plants-lover-content h2 {
-  font-size: 1.5rem;
-  margin-bottom: 18px;
-  word-wrap: normal;
-}
-.plants-lover-content ul li {
-  font-size: 0.8rem;
-  margin-bottom: 16px;
-}
+  .plants-lover-img {
+    flex: 1;
+  }
+  .flower-store {
+    object-fit: cover;
+  }
+  .trusted-badge {
+    visibility: hidden;
+  }
+  .plants-lover-content {
+    flex: 1;
+  }
+  .plants-lover-content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+    word-wrap: normal;
+  }
+  .plants-lover-content ul li {
+    font-size: 0.8rem;
+    margin-bottom: 16px;
+  }
 
+  /* join section */
+  .join-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-image: url(./image/news-letter-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 275px;
+    position: relative;
+  }
+  .join-info {
+    text-align: center;
+  }
+  .join-info h2 {
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: bold;
+  }
+ .subscribe-form {
+  margin-top: 20px;
+  width: 70%;
+  height: 50px;
+  display: flex;
+  background-color: #fff;
+}
+.subscribe-form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.subscribe-form button{
+    border: none;
+    outline: none;
+    background-color: #e95a08;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 18px 15px;
+    cursor: pointer;
+}
 }
