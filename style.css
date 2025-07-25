@@ -186,43 +186,59 @@ img {
   display: flex;
   background-color: #fff;
 }
-.subscribe-form input{
-    flex: 1;
-    border: none;
-    outline: none;
-    padding-left: 10px;
+.subscribe-form input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding-left: 10px;
 }
-.subscribe-form button{
-    border: none;
-    outline: none;
-    background-color: #e95a08;
-    color: white;
-    font-weight: 500;
-    letter-spacing: 1px;
-    padding: 18px 50px;
-    cursor: pointer;
+.subscribe-form button {
+  border: none;
+  outline: none;
+  background-color: #e95a08;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 18px 50px;
+  cursor: pointer;
 }
-
 
 /* footer styling */
-.footer-container{
-  display: flex;
-  
+
+footer {
+  background-color: #fafcff;
 }
-.coloum{
+.footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 350px;
+  margin-top: 50px;
+}
+.coloum {
   flex: 1;
 }
 .middle {
   display: flex;
   justify-content: space-between;
-
 }
 
+.middle ul li {
+  list-style: none;
+  margin-bottom: 25px;
+}
+.middle ul li a {
+  text-decoration: none;
+  color: #8987a1;
+}
 
-
-
-
-
+.last ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.last ul li {
+  list-style: none;
+}
 
 /* media queries */
 
@@ -383,20 +399,20 @@ img {
     font-size: 1.125rem;
     font-weight: bold;
   }
- .subscribe-form {
-  margin-top: 20px;
-  width: 70%;
-  height: 50px;
-  display: flex;
-  background-color: #fff;
-}
-.subscribe-form input{
+  .subscribe-form {
+    margin-top: 20px;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    background-color: #fff;
+  }
+  .subscribe-form input {
     flex: 1;
     border: none;
     outline: none;
     padding-left: 10px;
-}
-.subscribe-form button{
+  }
+  .subscribe-form button {
     border: none;
     outline: none;
     background-color: #e95a08;
@@ -405,5 +421,41 @@ img {
     letter-spacing: 1px;
     padding: 18px 15px;
     cursor: pointer;
-}
+  }
+
+  /* footer styling */
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: self-start;
+    height: auto;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  .coloum {
+    flex: 1;
+  }
+  .middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .middle ul li {
+    list-style: none;
+    margin-bottom: 25px;
+  }
+  .middle ul li a {
+    text-decoration: none;
+    color: #8987a1;
+  }
+
+  .last ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .last ul li {
+    list-style: none;
+    margin-left: 15px;
+  }
 }
