@@ -203,6 +203,27 @@ img {
     cursor: pointer;
 }
 
+
+/* footer styling */
+.footer-container{
+  display: flex;
+  
+}
+.coloum{
+  flex: 1;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+
+
 /* media queries */
 
 @media (max-width: 576px) {
