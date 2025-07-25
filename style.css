@@ -172,6 +172,7 @@ img {
 .discount {
   display: flex;
   gap: 8px;
+  margin-top: 50px;
 }
 .left-cards {
   width: 35%;
@@ -180,14 +181,26 @@ img {
   grid-template-rows: repeat(2, 1fr);
   gap: 8px;
 }
+.left-cards h2 {
+  font-size: 1.25rem;
+  color: white;
+}
+.left-cards h3{
+  font-size: 1rem;
+  color: white;
+  text-decoration: underline;
+}
+
 .left-1 {
   background-image: url(./image/deal-bloom.png);
   background-size: cover;
   text-align: center;
+  border-radius: 8px;
 }
 .left-2 {
   background-image: url(./image/deal-ana.png);
   background-size: cover;
+  border-radius: 8px;
 }
 
 .right-card {
@@ -195,6 +208,16 @@ img {
   height: 425px;
   background-image: url(./image/deal-zabo.png);
   background-size: cover;
+  border-radius: 8px;
+}
+.right-card h2 {
+  font-size: 3rem;
+  color: white;
+}
+.right-card h3{
+  font-size: 1.25rem;
+  color: white;
+  text-decoration: underline;
 }
 
 /* join section */
